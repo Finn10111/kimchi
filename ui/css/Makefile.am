@@ -20,4 +20,4 @@ dist_css_DATA = kimchi.css
 
 css: src/*.scss src/modules/*.scss
 	echo "Compiling .scss file $<"
-	sassc -s expanded $< kimchi.css
+	sassc $< kimchi.css
